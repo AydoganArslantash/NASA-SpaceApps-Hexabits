@@ -1,5 +1,7 @@
 # AI-Based Exoplanet Classification System
 
+![Overview](images/overview.png)
+
 ## Summary
 This project is a neural network-based exoplanet classification system designed and trained with NASA TESS mission data and categorize celestial objects as **Confirmed Planets (CP)**, **Planet Candidates (PC)**, or **False Positives (FP)**. It addresses the challenge of processing the massive backlog of TESS observations that would take astronomers days to review manually.
 
@@ -8,6 +10,13 @@ The system achieves over **78% classification accuracy** by training on more tha
 2. **AI Classification:** Deploys the neural network model to classify new discoveries.
 
 Users interact via a web interface, allowing single observation input or batch CSV uploads. Predictions include confidence scores, temperature analysis, and habitability assessments. The project accelerates exoplanet discovery, prioritizes promising candidates, and democratizes access to advanced AI analysis in astronomy.
+
+**Demo:**  
+![Web Interface Demonstration](images/web_demonstration.png)
+
+**Results:**  
+![Confusion Matrix](images/confusion_matrix.png)  
+![Metrics](images/metrics.png)  
 
 ---
 
@@ -41,6 +50,9 @@ The system was designed for end-to-end automation: user input → database check
    - Pass unmatched entries to neural network for classification.  
    - Display results with confidence, temperature, and habitability analysis.  
 4. **Creativity:** Automates a historically manual process, increasing speed and consistency in exoplanet identification.
+
+**Workflow:**  
+![Workflow](images/workflow.jpg)
 
 ---
 
